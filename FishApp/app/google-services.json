@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "313458692623",
+    "project_id": "fishapp-59c84",
+    "storage_bucket": "fishapp-59c84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313458692623:android:43d704e428b4ceac59097a",
+        "android_client_info": {
+          "package_name": "com.example.fishapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_iRton7JZ5d87RGWwm5xudaTkMaSruz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
