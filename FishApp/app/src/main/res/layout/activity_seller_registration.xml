@@ -5,8 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/teal"
-    tools:context=".SignUpActivity">
+    android:background="@drawable/back"
+    tools:context=".SellerRegistration">
 
 
     <LinearLayout
@@ -16,91 +16,83 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="564dp"
-            android:layout_marginTop="170dp"
+            android:layout_height="700dp"
+            android:layout_marginTop="50dp"
             android:orientation="vertical"
             android:padding="20dp">
 
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="8dp"
                 android:padding="8dp"
-                android:text="Sign Up Page"
+                android:background="@drawable/skyblue_border"
+                android:text="This information will be used for invoicing and legal purposes. Registered Name and Business Address, TIN, Bussiness Name/Style, DTI Registration, BFAR Permit are required to be indicated in official receipts for claim of input VAT. Afoodable will not re-issue any invoices due to incomplete or incorrect information provided by sellers."
                 android:textColor="@color/Sapphire"
-                android:textSize="18sp" />
+                android:drawableLeft="@drawable/baseline_notification_important_24"
+                android:textSize="12sp" />
 
             <EditText
-                android:id="@+id/signup_username"
+                android:id="@+id/sellerName"
                 android:layout_width="350dp"
                 android:layout_height="60dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/skyblue_border"
                 android:drawableLeft="@drawable/baseline_account_circle_24"
                 android:drawablePadding="8dp"
-                android:hint="Name"
+                android:hint="Registered Name"
                 android:padding="8dp"
                 android:textColor="@color/grey" />
 
             <EditText
-                android:id="@+id/signup_email"
+                android:id="@+id/sellerBusinessName"
                 android:layout_width="350dp"
                 android:layout_height="60dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/skyblue_border"
-                android:drawableLeft="@drawable/baseline_email_24"
+                android:drawableLeft="@drawable/baseline_format_quote_24"
                 android:drawablePadding="8dp"
-                android:hint="Email"
+                android:hint="Business Name"
                 android:padding="8dp"
                 android:textColor="@color/grey" />
 
             <EditText
-                android:id="@+id/signup_password"
+                android:id="@+id/sellerBusinessAddress"
                 android:layout_width="350dp"
                 android:layout_height="60dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/skyblue_border"
-                android:drawableLeft="@drawable/baseline_lock_24"
+                android:drawableLeft="@drawable/baseline_perm_contact_calendar_24"
                 android:drawablePadding="8dp"
-                android:hint="Password"
-                android:inputType="textPassword"
+                android:hint="Business Address"
                 android:padding="8dp"
                 android:textColor="@color/grey" />
 
             <EditText
-                android:id="@+id/signup_confirm"
+                android:id="@+id/sellerTIN"
                 android:layout_width="350dp"
                 android:layout_height="60dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/skyblue_border"
-                android:drawableLeft="@drawable/baseline_password_24"
+                android:drawableLeft="@drawable/baseline_perm_contact_calendar_24"
                 android:drawablePadding="8dp"
-                android:hint="Confirm Password"
-                android:inputType="textPassword"
+                android:hint="Taxpayer Identification Number (TIN)"
                 android:padding="8dp"
                 android:textColor="@color/grey" />
+
 
 
             <Button
-                android:id="@+id/signup_button"
+                android:id="@+id/sellerBtn"
                 android:layout_width="350dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="30dp"
-                android:text="Sign Up"
+                android:text="Register"
                 android:textSize="18sp"
                 app:cornerRadius="30dp" />
 
-            <TextView
-                android:id="@+id/loginRedirectText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="8dp"
-                android:padding="8dp"
-                android:text="Already an user? Login"
-                android:textColor="@color/Sapphire"
-                android:textSize="18sp" />
 
         </LinearLayout>
 

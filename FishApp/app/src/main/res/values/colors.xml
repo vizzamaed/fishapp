@@ -3,7 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="grey">#FF424242</color>
-    <color name="sky_blue">#00BDFE</color>
-    <color name="Sapphire">#0D52BD</color>
-    <color name="teal">#008081</color>
+    <color name="sky_blue">#B9F7F4</color>
+    <color name="Sapphire">#293066</color>
+    <color name="teal">#72CBEB</color>
 </resources>

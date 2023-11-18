@@ -19,11 +19,12 @@ class SignUpActivity : AppCompatActivity() {
         firebaseAuth=FirebaseAuth.getInstance()
 
         binding.signupButton.setOnClickListener{
+            val user = binding.signupUsername.text.toString()
             val email = binding.signupEmail.text.toString()
             val password =binding.signupPassword.text.toString()
             val confirmPassword =binding.signupConfirm.text.toString()
 
-            if(email.isNotEmpty()&& password.isNotEmpty()&&confirmPassword.isNotEmpty()){
+            if(user.isNotEmpty()&&email.isNotEmpty()&& password.isNotEmpty()&&confirmPassword.isNotEmpty()){
                 if(password==confirmPassword){
 
                     firebaseAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener{
