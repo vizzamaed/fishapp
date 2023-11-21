@@ -15,6 +15,6 @@
 
     <style name="Theme.BottomNavigation" parent="Base.Theme.FishApp" />
     <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
-        <item name="android:color">@color/Sapphire</item>
+        <item name="android:color">@color/teal</item>
     </style>
 </resources>

@@ -6,8 +6,8 @@
         android:title="Home"
         android:icon="@drawable/baseline_home_24"/>
     <item
-        android:id="@+id/bottom_search"
-        android:title="Search"
+        android:id="@+id/bottom_notifications"
+        android:title="Notifications"
         android:icon="@drawable/magnifying_glass_svgrepo_com"/>
     <item
         android:id="@+id/bottom_transactions"

@@ -1,7 +1,10 @@
 package com.example.fishapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
@@ -13,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
+
         bottomNavigationView = findViewById(R.id.bottom_navigation)
 
         bottomNavigationView.setOnItemSelectedListener { menuItem ->
@@ -21,8 +25,8 @@ class MainActivity : AppCompatActivity() {
                     replaceFragment(HomeFragment())
                     true
                 }
-                R.id.bottom_search -> {
-                    replaceFragment(SearchFragment())
+                R.id.bottom_notifications -> {
+                    replaceFragment(NotificationsFragment())
                     true
                 }
                 R.id.bottom_transactions -> {

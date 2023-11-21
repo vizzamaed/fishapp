@@ -22,6 +22,11 @@ class SellerDashboard : AppCompatActivity() {
                 R.id.seller_bottom_transactions -> {
                     replaceFragment(SellerTransactionsFragment())
                     true
+
+                }
+                R.id.seller_bottom_notifications -> {
+                    replaceFragment(SellerNotificationsFragment())
+                    true
                 }
                 R.id.seller_bottom_Basket -> {
                     replaceFragment(SellerOrdersFragment())

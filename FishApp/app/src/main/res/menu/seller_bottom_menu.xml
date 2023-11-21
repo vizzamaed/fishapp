@@ -10,6 +10,10 @@
         android:title="Transactions"
         android:icon="@drawable/baseline_receipt_24"/>
     <item
+        android:id="@+id/seller_bottom_notifications"
+        android:title="Notifications"
+        android:icon="@drawable/baseline_account_circle_24"/>
+    <item
         android:id="@+id/seller_bottom_Basket"
         android:title="Orders"
         android:icon="@drawable/baseline_shopping_bag_24"/>

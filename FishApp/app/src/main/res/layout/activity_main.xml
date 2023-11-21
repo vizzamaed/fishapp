@@ -21,7 +21,7 @@
         app:menu="@menu/bottom_menu"
         android:background="@color/Sapphire"
         app:itemIconTint="@color/white"
-        app:itemTextColor="@color/white"
+        app:itemTextColor="@color/teal"
         app:itemIconSize="30dp"
         app:itemActiveIndicatorStyle="@style/App.Custom.Indicator"/>
 
